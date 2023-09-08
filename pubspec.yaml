@@ -1,0 +1,30 @@
+name: eclass
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  html: ^0.15.4
+  http: ^1.0.0
+  path: ^1.8.3
+  sqflite: ^2.2.8+4
+  url_launcher: ^6.1.12
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: omyu_pretty
+      fonts:
+        -  asset: assets/fonts/오뮤_다예쁨체.ttf
+    
